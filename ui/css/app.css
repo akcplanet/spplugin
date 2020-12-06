@@ -1,0 +1,14 @@
+.example {
+    color: yellow;
+}
+
+h1 {
+ color: #33ccff;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}

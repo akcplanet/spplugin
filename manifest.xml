@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Plugin PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Plugin certificationLevel="None" displayName="Dim Plugin" minSystemVersion="7.1" name="dimplugin" version="1.0">
+  <Attributes>
+    <Map>
+      <entry key="minUpgradableVersion" value="1.0" />
+      <entry key="fullPage">
+        <value>
+          <FullPage title="Dim Sample Plugin" />
+        </value>
+      </entry>
+      <entry key="restResources">
+				<value>
+					<List>
+						<String>com.cso.iiq.request.controller.ManageCustomController</String>
+					</List>
+				</value>
+			</entry>
+  <!--     <entry key="snippets">
+        <value>
+          <List>
+            <Snippet regexPattern=".*" rightRequired="ViewTodoPluginIcon">
+              <Scripts>
+                <String>ui/js/snippets/header.js</String>
+              </Scripts>
+              <StyleSheets>
+                <String>ui/css/hello.css</String>
+              </StyleSheets>
+            </Snippet>
+          </List>
+        </value>
+      </entry> -->
+    </Map>
+  </Attributes>
+</Plugin>

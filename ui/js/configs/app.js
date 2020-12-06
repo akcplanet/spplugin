@@ -1,0 +1,1 @@
+angular.module('dimplugin', ['ui.bootstrap', 'ngRoute', 'ngResource', 'configApp', 'DIMPluginIIQ']);
